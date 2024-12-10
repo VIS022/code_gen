@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Static items group -->
+    <group android:id="@+id/group_static_items" android:checkableBehavior="single">
+        <!-- Parent item for previous conversations with dynamic submenu -->
+        <item
+            android:id="@+id/menu_previous_conversations"
+            android:title="Previous">
+            <menu>
+                <!-- Dynamic items will be added here programmatically -->
+            </menu>
+        </item>
+        <!-- Static items for Previous 7 Days and Previous 30 Days -->
+        <item
+            android:id="@+id/menu_previous_7_days"
+            android:title="Previous 7 Days" />
+        <item
+            android:id="@+id/menu_previous_30_days"
+            android:title="Previous 30 Days" />
+    </group>
+</menu>

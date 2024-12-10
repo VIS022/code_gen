@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+        <!-- Light Theme Colors -->
+        <color name="colorPrimaryLight">#757575</color> <!-- Adjust as needed -->
+        <color name="colorPrimaryDarkLight">#757575</color>
+        <color name="colorAccentLight">#2196F3</color>
+        <color name="textColorPrimaryLight">#000000</color> <!-- Black text -->
+        <color name="textColorSecondaryLight">#757575</color>
+        <color name="colorBackgroundLight">#FFFFFF</color> <!-- White background -->
+
+        <!-- Dark Theme Colors -->
+        <color name="colorPrimaryDarkTheme">#212121</color>
+        <color name="colorPrimaryDarkDarkTheme">#000000</color>
+        <color name="colorAccentDarkTheme">#FFFFFF</color>
+        <color name="textColorPrimaryDark">#FFFFFF</color> <!-- White text -->
+        <color name="textColorSecondaryDark">#FFFFFF</color>
+        <color name="colorBackgroundDark">#121212</color> <!-- Dark background -->
+
+        <!-- Red Theme Colors -->
+        <color name="colorPrimaryRed">#F44336</color>
+        <color name="colorPrimaryDarkRed">#EFA6B0</color>
+        <color name="colorAccentRed">#FFEBEE</color>
+        <color name="textColorPrimaryRed">#000000</color> <!-- Adjust as needed -->
+        <color name="textColorSecondaryRed">#757575</color>
+        <color name="colorBackgroundRed">#EFA6B0</color> <!-- Light red background -->
+
+
+
+</resources>

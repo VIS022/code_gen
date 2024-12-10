@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Thesis_Code_Gen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Common attributes can go here -->
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.Thesis_Code_Gen.Light" parent="Base.Theme.Thesis_Code_Gen">
+        <!-- Light theme colors -->
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryLight</item>
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.Thesis_Code_Gen.Dark" parent="Base.Theme.Thesis_Code_Gen">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">@color/colorPrimaryDarkTheme</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDarkTheme</item>
+        <item name="colorAccent">@color/colorAccentDarkTheme</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryDark</item>
+        <item name="android:colorBackground">@color/colorBackgroundDark</item>
+    </style>
+
+    <!-- Red Theme -->
+    <style name="Theme.Thesis_Code_Gen.Red" parent="Base.Theme.Thesis_Code_Gen">
+        <!-- Red theme colors -->
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryRed</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryRed</item>
+        <item name="android:colorBackground">@color/colorBackgroundRed</item>
+    </style>
+
+    <!-- Default Theme pointing to Light Theme -->
+    <style name="Theme.Thesis_Code_Gen" parent="Theme.Thesis_Code_Gen.Light" />
+
+</resources>
